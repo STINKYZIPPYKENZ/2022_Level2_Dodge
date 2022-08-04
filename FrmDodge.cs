@@ -84,6 +84,7 @@ namespace _2022_Level2_Dodge
             lives = int.Parse(LblLives.Text);
         }
 
+
         private void TmrPlanet_Tick(object sender, EventArgs e)
         {
             for (int i = 0; i < 7; i++)
